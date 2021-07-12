@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 44px auto 127px auto;
+  }
+  
+  .menu {
+    width: 490px;
+  }
+  .menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu_link_item {
+    font-weight: 400;
+    font-size: 17.5px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #222222;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .menu_link_item:hover {
+    color: #0ca3e9;
+  }
+
+  .btn {
+    font-size: 39px;
+    font-family: 'Dancing Script', cursive;
+    color: #0ca3e9;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:active {
+    color: #3c30dd;
+    } 

@@ -1,0 +1,49 @@
+.section_welcome{
+display: flex;
+justify-content: space-around;
+background-size: cover;;
+background-color: #343434;
+background-image: url(../img/header_bckgrd_desktop.png);
+background-repeat: no-repeat;
+width: 100%;
+}
+
+.section_welcome_div{
+    align-items: center;
+    
+}
+
+.section_welcome_title{
+font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 150px;
+}
+
+
+.section_welcome_text{
+font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.section_welcome_button{ 
+  background-color: #6899d4;
+  border: none;
+  width: 210px;
+  font-size: 25px;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+  
+}
+
+.section_welcome_img{
+     width : 380px;
+height : 450px;
+border : #00a8e1 solid 12px;;
+margin-top: 20px;
+margin-bottom: 20px;
+}

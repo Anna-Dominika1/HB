@@ -1,0 +1,84 @@
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  cursor: pointer;
+   background-color: transparent;
+   border: none;
+   /* justify-content: center; */
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.modal {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 24px;
+  max-width: 640px;
+  width: 100%;
+  min-height: 200px;
+  justify-content: center;
+  transform: scale(1.1);
+  transition: transform 200ms ease-in-out;
+}
+
+.modal__title {
+  margin-bottom: 12px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  
+}
+
+.modal__text {
+  margin-bottom: 24px;
+ font-family: 'Dancing Script', cursive;
+}
+
+.show_modal {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}
+
+.show_modal .modal {
+  transform: scale(1);
+}
+
+.close_modal{
+    width: 30px;
+    
+}
+
+.dc{
+    margin-left: 550px;
+    
+}
+
+.w{
+    width: 350px;
+   
+}
+
+.modal_content{
+    justify-content: center;
+    margin: 0 auto;
+} 
